@@ -1,11 +1,11 @@
 package com.driver;
 
 public class RWOnly {
-    private int num;
-    int setName(int num){
-        return num;
+    private String num;
+    public void setName(String num){
+        this.num = num;
     }
-    void getName(int y){
-        num = y;
+    public String getName(){
+        return num;
     }
 }
